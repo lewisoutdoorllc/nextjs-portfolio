@@ -32,9 +32,10 @@ const ContactPage = () => {
         <h1>Reach Out Via Socials</h1>
         <ContactCode />
       </div>
-      <div>
-        <h1>Or Fill Out The Form</h1>
-        <form className={styles.form} onSubmit={submitForm}>
+      <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+        {/* <h1>Or Fill Out The Form</h1> */}
+        <h1>Contact Form Coming Soon!</h1>
+        {/* <form className={styles.form} onSubmit={submitForm}>
           <div className={styles.flex}>
             <div>
               <label htmlFor="name">Name</label>
@@ -82,7 +83,7 @@ const ContactPage = () => {
             ></textarea>
           </div>
           <button type="submit">Submit</button>
-        </form>
+        </form> */}
       </div>
     </div>
   );

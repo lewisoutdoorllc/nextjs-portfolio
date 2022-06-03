@@ -10,8 +10,9 @@
   color: var(--text-color);
   font-family: 'JetBrains Mono', monospace;
   flex: 1;
-  height: 85vh;
+  /* height: 85vh; */
   /* overflow-y: auto; */
+  min-height: 100vh;
 }
 
 .content {
