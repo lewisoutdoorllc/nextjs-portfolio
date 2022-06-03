@@ -8,30 +8,37 @@ const ContactCode = () => {
       </p>
       <p className={styles.line}>
         &nbsp;&nbsp;&nbsp;website:{' '}
-        <a href="https://nitinranganath.me" target="_blank" rel="noopener">
-          nitinranganath.me
+        <a href="https://github.com/lewisoutdoorllc" target="_blank" rel="noopener">
+        github.com/lewisoutdoorllc
         </a>
         ;
       </p>
       <p className={styles.line}>
         &nbsp;&nbsp;&nbsp;email:{' '}
         <a
-          href="mailto:nitinranganath@gmail.com"
+          href="mailto:lewisoutdoorllc@gmail.com"
           target="_blank"
           rel="noopener"
         >
-          nitinranganath@gmail.com
+          lewisoutdoorllc@gmail.com
         </a>
         ;
       </p>
       <p className={styles.line}>
         &nbsp;&nbsp;&nbsp;github:{' '}
-        <a href="https://github.com/itsnitinr" target="_blank" rel="noopener">
-          itsnitinr
+        <a href="https://github.com/lewisoutdoorllc" target="_blank" rel="noopener">
+          lewisoutdoorllc
         </a>
         ;
       </p>
       <p className={styles.line}>
+        &nbsp;&nbsp;&nbsp;linkedin:{' '}
+        <a href="https://www.linkedin.com/in/codercodylewis/" target="_blank" rel="noopener">
+        codercodylewis
+        </a>
+        ;
+      </p>
+      {/* <p className={styles.line}>
         &nbsp;&nbsp;&nbsp;linkedin:{' '}
         <a
           href="https://www.linkedin.com/in/nitinranganath/"
@@ -99,7 +106,7 @@ const ContactCode = () => {
           itsnitinr
         </a>
         ;
-      </p>
+      </p> */}
       <p className={styles.line}>&#125;</p>
     </div>
   );

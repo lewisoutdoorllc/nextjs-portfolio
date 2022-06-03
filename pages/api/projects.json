@@ -1,37 +1,38 @@
 [
   {
     "id": 1,
-    "name": "React Counter",
-    "image": "https://imgur.com/A8NYxAA.png",
-    "description": "A Counter app that allows to change counr using React",
-    "tags": ["react", "html", "css"],
-    "source_code": "",
-    "demo": "https://friendly-austin-253745.netlify.app/"
+    "name": "PWA Budget Tracker",
+    "image": "/images/pwa-budget-tracker-ss.png",
+    "description": "A PWA app that tracks your expenses and income. Is mobile installable and can also be used offline; when user is back online the data will be updated so it can be used anytime and the user does not have to worry about lost data.",
+    "tags": ["javascript", "PWA", "mongoDB", "mongoose", "express", "indexedDB", "lite-server", "compression", "morgan"],
+    "source_code": "https://github.com/lewisoutdoorllc/PWA_budget_tracker",
+    "demo": "https://lewis-pwa-budget-tracker.herokuapp.com/"
   },
   {
     "id": 2,
-    "name": "PCB Cupid",
-    "image": "https://imgur.com/tAZotn3.png",
-    "description": "E-commerce website for a PCB manufacturing company",
-    "tags": ["react", "node", "mongodb", "redux", "razorpay", "material-ui"],
-    "demo": "https://www.pcbcupid.com/"
+    "name": "Sneaker Bay",
+    "image": "/images/sneakerbay-snapshot.png",
+    "description": "SneakerBay is a full stack single page application using Mongoose, Express.js React, and Node.js, where users can buy and sell the latest sneakers.",
+    "tags": ["react", "node", "mongoDB", "JWT", "express", "mongoose", "apollo", "graphql", "dotenv", "bcrypt", "bootstrap"],
+    "source_code": "https://github.com/mrhumpherys/sneakerBay",
+    "demo": "https://sneakerbay.herokuapp.com/"
   },
   {
     "id": 3,
-    "name": "HealthyWays",
-    "image": "https://imgur.com/8FFqaX8.png",
-    "description": "A food ordering platform for healthy and home-cooked meals",
-    "tags": ["react", "node", "mongodb", "redux", "razorpay", "material-ui"],
-    "source_code": "https://github.com/itsnitinr/healthyways",
-    "demo": "https://healthyways.herokuapp.com/"
+    "name": "Sports Buzz",
+    "image": "/images/sportsbuzz-ss.png",
+    "description": "Sports Buzz is a full-stack web application using Node.js, Express.js, and Sequelize, that presents live and scheduled NBA games, NBA related news, as well as pages for updated scores and user comments about the game.",
+    "tags": ["react", "node", "express", "api", "mongoDB", "redux", "bcrypt", "bootstrap"],
+    "source_code": "https://github.com/mrhumpherys/social-sports",
+    "demo": "https://sports-buzz.herokuapp.com/"
   },
   {
     "id": 4,
-    "name": "VSCode Portfolio",
-    "image": "https://imgur.com/mKkz0iz.png",
-    "description": "A themeable and developer-centric portfolio based on the VSCode",
-    "tags": ["next", "css-modules"],
-    "source_code": "https://github.com/itsnitinr/vscode-portfolio",
-    "demo": "http://vscode-portfolio.vercel.app/"
+    "name": "Tech Blog",
+    "image": "/images/tech_blog.gif",
+    "description": "Tech Blog is a blogging website that allows the user to simply add post, edit post, comment on post, and edit and delete as needed",
+    "tags": ["bcrypt", "mysql2", "sequelize", "connect-session-sequelize", "express", "handlebars", "bootstrap"],
+    "source_code": "https://github.com/lewisoutdoorllc/tech-blog",
+    "demo": "https://stark-stream-49625.herokuapp.com/"
   }
 ]

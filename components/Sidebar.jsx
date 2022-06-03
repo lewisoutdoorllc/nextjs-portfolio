@@ -31,7 +31,7 @@ const Sidebar = () => {
             />
           </div>
         </Link>
-        <Link href="/github">
+        <Link href="https://github.com/lewisoutdoorllc">
           <div
             className={`${styles.iconContainer} ${
               router.pathname === '/github' && styles.active

@@ -15,15 +15,17 @@ const GithubPage = ({ repos, user }) => {
   return (
     <>
       <div className={styles.user}>
-        <div>
+        <div className={styles.userImage}>
           <Image
             src={user.avatar_url}
             className={styles.avatar}
             alt={user.login}
-            width={50}
-            height={50}
+            width={60}
+            height={60}
           />
-          <h3 className={styles.username}>{user.login}</h3>
+        </div>
+        <div>
+        <h3 className={styles.username}>{user.login}</h3>
         </div>
         <div>
           <h3>{user.public_repos} repos</h3>
