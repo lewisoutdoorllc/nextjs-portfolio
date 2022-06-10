@@ -48,8 +48,19 @@
 }
 
 @media screen and (max-width: 900px) {
+  .user {
+    flex-direction: column;
+    margin: 25px;
+    padding: 10px;
+    height: 290px;
+  }
+  .user > div {
+    padding: 11px;
+    margin: 5px;
+  }
   .user h3 {
     font-size: 1rem;
+    /* margin: 10px; */
   }
 }
 
@@ -57,7 +68,7 @@
   .user h3 {
     font-size: 14px;
   }
-  .username {
+  /* .username {
     display: none;
-  }
+  } */
 }
