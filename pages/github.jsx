@@ -42,9 +42,16 @@ const GithubPage = ({ repos, user }) => {
       </div>
       <div className={styles.contributions}>
         <GitHubCalendar
+          className={styles.calendar}
           username={process.env.NEXT_PUBLIC_GITHUB_USERNAME}
-          theme={theme}
-          hideColorLegend
+          // theme={theme}
+          blockMargin={6}
+          blockSize={20}
+          blockColor={'#39d353'}
+          fontSize={17}
+          // blockRadius={7}
+          // hideColorLegend
+          color="34e5ff"
         />
       </div>
     </>
