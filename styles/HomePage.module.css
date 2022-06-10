@@ -4,7 +4,7 @@
   display: flex;
   justify-content: center;
   height: 75vh;
-  /* width: 100%; */
+  /* min-width: 100vw; */
   flex-direction: column;
   position: relative;
 }
@@ -156,10 +156,10 @@
   }
   .illustration {
     position: absolute;
-    bottom: -50px;
+    bottom: -150px;
     right: 0;
-    height: 700px;
-    width: 600px;
+    height: 575px;
+    width: 450px;
   }
 }
 
@@ -178,7 +178,9 @@
   .illustration {
     height: 550px;
     width: 420px;
-    bottom: -50px;
+    bottom: -190px;
+    height: 415px;
+    width: 350px;
   }
 }
 
@@ -186,13 +188,18 @@
   .container {
     display: flex;
   }
-  /* .illustration {
+
+  .illustration {
     display: none;
-  } */
+  }
 }
 
 /* Phone */
 @media screen and (max-width: 600px) {
+  /* .illustration {
+    position: absolute;
+    bottom: -100px;
+  } */
   .foreground {
     margin: 0;
   }
