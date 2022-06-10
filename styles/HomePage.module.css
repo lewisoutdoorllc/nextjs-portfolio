@@ -186,9 +186,9 @@
   .container {
     display: flex;
   }
-  .illustration {
+  /* .illustration {
     display: none;
-  }
+  } */
 }
 
 /* Phone */
