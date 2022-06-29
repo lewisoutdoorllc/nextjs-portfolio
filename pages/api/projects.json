@@ -32,7 +32,7 @@
     "image": "/images/tailwind-hulu-clone.png",
     "description": "A clone of the Hulu application using Tailwind CSS, React, and Node.js.",
     "tags": ["next","react-dom", "react-flip-move", "tailwind-scrollbar-hide", "heroicons"],
-    "source_code": "https://github.com/lewisoutdoorllc/tech-blog",
-    "demo": "https://stark-stream-49625.herokuapp.com/"
+    "source_code": "https://github.com/lewisoutdoorllc/tailwind-hulu-clone",
+    "demo": "https://tailwind-hulu-clone.vercel.app/"
   }
 ]
