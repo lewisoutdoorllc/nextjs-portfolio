@@ -22,10 +22,10 @@
 .node:hover {
   background: rgba(131, 205, 41, 0.25);
 }
-.javascript,.indexedDB {
+.javascript,.indexedDB, .react-dom {
   border: 0.1rem solid rgb(131, 205, 41);
 }
-.javascript:hover,.indexedDB:hover {
+.javascript:hover,.indexedDB:hover, .react-dom:hover {
   background: rgba(131, 205, 41, 0.25);
 }
 
@@ -36,17 +36,17 @@
   background: rgba(67, 153, 52, 0.25);
 }
 
-.redux,.mongoose,.JWT {
+.redux,.mongoose,.JWT, .react-flip-move {
   border: 0.1rem solid rgb(118, 74, 188);
 }
-.redux:hover,.mongoose:hover,.JWT:hover {
+.redux:hover,.mongoose:hover,.JWT:hover, .react-flip-move:hover {
   background: rgba(118, 74, 188, 0.25);
 }
 
-.express {
+.express, .tailwind-scrollbar-hide {
   border: 0.1rem solid rgb(82, 143, 240);
 }
-.express:hover {
+.express:hover, .tailwind-scrollbar-hide:hover {
   background: rgba(82, 143, 240, 0.25);
 }
 
@@ -71,10 +71,10 @@
   background: rgba(0, 112, 243, 0.25);
 }
 
-.tailwind {
+.tailwind, .heroicons {
   border: 2px solid rgb(6, 182, 212);
 }
-.tailwind:hover {
+.tailwind:hover, .heroicons:hover {
   background: rgba(6, 182, 212, 0.25);
 }
 

@@ -28,10 +28,10 @@
   },
   {
     "id": 4,
-    "name": "Tech Blog",
-    "image": "/images/tech_blog.gif",
-    "description": "Tech Blog is a blogging website that allows the user to simply add post, edit post, comment on post, and edit and delete as needed",
-    "tags": ["bcrypt", "mysql2", "sequelize", "connect-session-sequelize", "express", "handlebars", "bootstrap"],
+    "name": "Hulu Clone",
+    "image": "/images/tailwind-hulu-clone.png",
+    "description": "A clone of the Hulu application using Tailwind CSS, React, and Node.js.",
+    "tags": ["next","react-dom", "react-flip-move", "tailwind-scrollbar-hide", "heroicons"],
     "source_code": "https://github.com/lewisoutdoorllc/tech-blog",
     "demo": "https://stark-stream-49625.herokuapp.com/"
   }
